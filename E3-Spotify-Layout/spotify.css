@@ -1,0 +1,87 @@
+:root {
+    --main-bg: #000;
+    --element-bg: #262626;
+    --accent: #1ed760;
+    --layout-max-width: 100%;
+    --vspace: 12px;
+    --hspace: 16px;
+}
+
+body {
+    max-height: 100vh;
+    height: 100%;
+    overflow: hidden;
+    background: var(--main-bg);
+    text-align: left;
+    color: #fff;
+    margin: 0;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.col {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.main-row {
+    height: 85vh;
+    overflow: hidden;
+}
+
+.left-column {
+    width: 13vw;
+    padding: 2vh 1vw;
+}
+
+.main-column {
+    width: 81vw;
+    padding: 2vh 2vw;
+    background: linear-gradient(180deg, rgba(34,34,34,1) 0%, rgba(18,18,18,1) 40%);
+    overflow-y:scroll;
+}
+
+.bottom-row {
+    flex: 1 300px;
+}
+
+header {
+    width: 100%;
+    height: 28px;
+    padding: 2vh 1vw;
+    padding-top: 0 !important;
+    padding-left: 0 !important;
+    justify-content: space-between;
+}
+
+.multimedia-control {
+    height: 8vh;
+    padding: 2vh 1vw;
+    background-color: #181818;
+}
+
+.notification {
+    height: 2vh;
+    padding: 0.25vh 1vw;
+    background-color: var(--accent);
+    color: #000;
+    font-weight: bold;
+}
+
+.title-elem {
+    width: 15%;
+    height: 100%;
+    align-items:center;
+    justify-content:center;
+}
+
+.card {
+    width: 204px;
+    height: 284px !important;
+    margin: 1vw;
+    background-color: var(--element-bg);
+}
