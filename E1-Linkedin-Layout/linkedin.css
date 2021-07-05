@@ -10,6 +10,8 @@
 body {
     background-color: var(--main-bg);
     text-align: center;
+    margin: 0;
+
 }
 
 .layout {
@@ -47,7 +49,7 @@ body {
     width: 100%;
     height: 48px;
     background-color: var(--element-bg);
-    border: 1px solid gray;
+    border: 1px solid lightgrey;
 }
 
 .ad-banner {
@@ -60,14 +62,15 @@ body {
 hr {
     width: 100%;
     margin-bottom: 16px;
-    color:lightgrey;
+    border-width: 1px;
+    border-color: lightgrey;
 }
 
 .card {
     width: 100%;
     height: auto;
     background-color: var(--element-bg);
-    border: 1px solid gray;
+    border: 1px solid lightgrey;
     border-radius: 0.8rem;
     margin-bottom: var(--vspace);
 }
